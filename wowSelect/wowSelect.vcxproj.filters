@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\libgm">
+      <UniqueIdentifier>{58ce450a-589f-484f-8179-4af8967f78ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libgm">
+      <UniqueIdentifier>{d622f5f0-325b-4e86-bc92-749d3c4c3f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\gbutton.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\gcombobox.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\gedit.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\glabel.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\glistbox.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\gsystem.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\gui.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+    <ClCompile Include="libgm\gwindow.cpp">
+      <Filter>Source Files\libgm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libgm\gbutton.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+    <ClInclude Include="libgm\gcombobox.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+    <ClInclude Include="libgm\gedit.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+    <ClInclude Include="libgm\glabel.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+    <ClInclude Include="libgm\glistbox.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+    <ClInclude Include="libgm\gsystem.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+    <ClInclude Include="libgm\gui.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+    <ClInclude Include="libgm\gwindow.h">
+      <Filter>Header Files\libgm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wowSelect.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
